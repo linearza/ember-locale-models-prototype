@@ -1,7 +1,9 @@
 # test-locale-models
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Simple architecture prototype to test dynamic locale models in Ember 5.2
+
+![locale-models](https://github.com/linearza/ember-locale-models-prototype/assets/4822534/c8d34e90-2891-40b4-b4fe-e3d07cd39460)
+
 
 ## Prerequisites
 
