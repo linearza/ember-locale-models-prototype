@@ -1,7 +1,15 @@
 {{page-title "TestLocaleModels"}}
 
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
+Locale values below are defaultValues set on the model classes:
+<br>
+<br>
+
+{{#each @model as |localeModel|}}
+  model locale: {{localeModel.locale}} <br>
+{{/each}}
+
+<br><br>
+
+<button {{on "click" this.randomLocale}}>Random Locale</button>
 
 {{outlet}}
